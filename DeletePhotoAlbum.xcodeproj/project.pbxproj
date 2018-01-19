@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		215B28C62011BE460015D3E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215B28C52011BE460015D3E8 /* AppDelegate.swift */; };
+		215B28C82011BE460015D3E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215B28C72011BE460015D3E8 /* ViewController.swift */; };
+		215B28CB2011BE460015D3E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 215B28C92011BE460015D3E8 /* Main.storyboard */; };
+		215B28CD2011BE460015D3E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 215B28CC2011BE460015D3E8 /* Assets.xcassets */; };
+		215B28D02011BE460015D3E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 215B28CE2011BE460015D3E8 /* LaunchScreen.storyboard */; };
+		215B28DB2011BE460015D3E8 /* DeletePhotoAlbumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215B28DA2011BE460015D3E8 /* DeletePhotoAlbumTests.swift */; };
+		215B28E62011BE460015D3E8 /* DeletePhotoAlbumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215B28E52011BE460015D3E8 /* DeletePhotoAlbumUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		215B28D72011BE460015D3E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 215B28BA2011BE460015D3E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 215B28C12011BE460015D3E8;
+			remoteInfo = DeletePhotoAlbum;
+		};
+		215B28E22011BE460015D3E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 215B28BA2011BE460015D3E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 215B28C12011BE460015D3E8;
+			remoteInfo = DeletePhotoAlbum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		215B28C22011BE460015D3E8 /* DeletePhotoAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeletePhotoAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		215B28C52011BE460015D3E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		215B28C72011BE460015D3E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		215B28CA2011BE460015D3E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		215B28CC2011BE460015D3E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		215B28CF2011BE460015D3E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		215B28D12011BE460015D3E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		215B28D62011BE460015D3E8 /* DeletePhotoAlbumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeletePhotoAlbumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		215B28DA2011BE460015D3E8 /* DeletePhotoAlbumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletePhotoAlbumTests.swift; sourceTree = "<group>"; };
+		215B28DC2011BE460015D3E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		215B28E12011BE460015D3E8 /* DeletePhotoAlbumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeletePhotoAlbumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		215B28E52011BE460015D3E8 /* DeletePhotoAlbumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletePhotoAlbumUITests.swift; sourceTree = "<group>"; };
+		215B28E72011BE460015D3E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		215B28BF2011BE460015D3E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215B28D32011BE460015D3E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215B28DE2011BE460015D3E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		215B28B92011BE460015D3E8 = {
+			isa = PBXGroup;
+			children = (
+				215B28C42011BE460015D3E8 /* DeletePhotoAlbum */,
+				215B28D92011BE460015D3E8 /* DeletePhotoAlbumTests */,
+				215B28E42011BE460015D3E8 /* DeletePhotoAlbumUITests */,
+				215B28C32011BE460015D3E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		215B28C32011BE460015D3E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				215B28C22011BE460015D3E8 /* DeletePhotoAlbum.app */,
+				215B28D62011BE460015D3E8 /* DeletePhotoAlbumTests.xctest */,
+				215B28E12011BE460015D3E8 /* DeletePhotoAlbumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		215B28C42011BE460015D3E8 /* DeletePhotoAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				215B28C52011BE460015D3E8 /* AppDelegate.swift */,
+				215B28C72011BE460015D3E8 /* ViewController.swift */,
+				215B28C92011BE460015D3E8 /* Main.storyboard */,
+				215B28CC2011BE460015D3E8 /* Assets.xcassets */,
+				215B28CE2011BE460015D3E8 /* LaunchScreen.storyboard */,
+				215B28D12011BE460015D3E8 /* Info.plist */,
+			);
+			path = DeletePhotoAlbum;
+			sourceTree = "<group>";
+		};
+		215B28D92011BE460015D3E8 /* DeletePhotoAlbumTests */ = {
+			isa = PBXGroup;
+			children = (
+				215B28DA2011BE460015D3E8 /* DeletePhotoAlbumTests.swift */,
+				215B28DC2011BE460015D3E8 /* Info.plist */,
+			);
+			path = DeletePhotoAlbumTests;
+			sourceTree = "<group>";
+		};
+		215B28E42011BE460015D3E8 /* DeletePhotoAlbumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				215B28E52011BE460015D3E8 /* DeletePhotoAlbumUITests.swift */,
+				215B28E72011BE460015D3E8 /* Info.plist */,
+			);
+			path = DeletePhotoAlbumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		215B28C12011BE460015D3E8 /* DeletePhotoAlbum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 215B28EA2011BE460015D3E8 /* Build configuration list for PBXNativeTarget "DeletePhotoAlbum" */;
+			buildPhases = (
+				215B28BE2011BE460015D3E8 /* Sources */,
+				215B28BF2011BE460015D3E8 /* Frameworks */,
+				215B28C02011BE460015D3E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeletePhotoAlbum;
+			productName = DeletePhotoAlbum;
+			productReference = 215B28C22011BE460015D3E8 /* DeletePhotoAlbum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		215B28D52011BE460015D3E8 /* DeletePhotoAlbumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 215B28ED2011BE460015D3E8 /* Build configuration list for PBXNativeTarget "DeletePhotoAlbumTests" */;
+			buildPhases = (
+				215B28D22011BE460015D3E8 /* Sources */,
+				215B28D32011BE460015D3E8 /* Frameworks */,
+				215B28D42011BE460015D3E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				215B28D82011BE460015D3E8 /* PBXTargetDependency */,
+			);
+			name = DeletePhotoAlbumTests;
+			productName = DeletePhotoAlbumTests;
+			productReference = 215B28D62011BE460015D3E8 /* DeletePhotoAlbumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		215B28E02011BE460015D3E8 /* DeletePhotoAlbumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 215B28F02011BE460015D3E8 /* Build configuration list for PBXNativeTarget "DeletePhotoAlbumUITests" */;
+			buildPhases = (
+				215B28DD2011BE460015D3E8 /* Sources */,
+				215B28DE2011BE460015D3E8 /* Frameworks */,
+				215B28DF2011BE460015D3E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				215B28E32011BE460015D3E8 /* PBXTargetDependency */,
+			);
+			name = DeletePhotoAlbumUITests;
+			productName = DeletePhotoAlbumUITests;
+			productReference = 215B28E12011BE460015D3E8 /* DeletePhotoAlbumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		215B28BA2011BE460015D3E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = sano;
+				TargetAttributes = {
+					215B28C12011BE460015D3E8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					215B28D52011BE460015D3E8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 215B28C12011BE460015D3E8;
+					};
+					215B28E02011BE460015D3E8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 215B28C12011BE460015D3E8;
+					};
+				};
+			};
+			buildConfigurationList = 215B28BD2011BE460015D3E8 /* Build configuration list for PBXProject "DeletePhotoAlbum" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 215B28B92011BE460015D3E8;
+			productRefGroup = 215B28C32011BE460015D3E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				215B28C12011BE460015D3E8 /* DeletePhotoAlbum */,
+				215B28D52011BE460015D3E8 /* DeletePhotoAlbumTests */,
+				215B28E02011BE460015D3E8 /* DeletePhotoAlbumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		215B28C02011BE460015D3E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215B28D02011BE460015D3E8 /* LaunchScreen.storyboard in Resources */,
+				215B28CD2011BE460015D3E8 /* Assets.xcassets in Resources */,
+				215B28CB2011BE460015D3E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215B28D42011BE460015D3E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215B28DF2011BE460015D3E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		215B28BE2011BE460015D3E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215B28C82011BE460015D3E8 /* ViewController.swift in Sources */,
+				215B28C62011BE460015D3E8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215B28D22011BE460015D3E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215B28DB2011BE460015D3E8 /* DeletePhotoAlbumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215B28DD2011BE460015D3E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215B28E62011BE460015D3E8 /* DeletePhotoAlbumUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		215B28D82011BE460015D3E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 215B28C12011BE460015D3E8 /* DeletePhotoAlbum */;
+			targetProxy = 215B28D72011BE460015D3E8 /* PBXContainerItemProxy */;
+		};
+		215B28E32011BE460015D3E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 215B28C12011BE460015D3E8 /* DeletePhotoAlbum */;
+			targetProxy = 215B28E22011BE460015D3E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		215B28C92011BE460015D3E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				215B28CA2011BE460015D3E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		215B28CE2011BE460015D3E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				215B28CF2011BE460015D3E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		215B28E82011BE460015D3E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		215B28E92011BE460015D3E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		215B28EB2011BE460015D3E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
+				INFOPLIST_FILE = DeletePhotoAlbum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.kz56cd.DeletePhotoAlbum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		215B28EC2011BE460015D3E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
+				INFOPLIST_FILE = DeletePhotoAlbum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.kz56cd.DeletePhotoAlbum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		215B28EE2011BE460015D3E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
+				INFOPLIST_FILE = DeletePhotoAlbumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.kz56cd.DeletePhotoAlbumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeletePhotoAlbum.app/DeletePhotoAlbum";
+			};
+			name = Debug;
+		};
+		215B28EF2011BE460015D3E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
+				INFOPLIST_FILE = DeletePhotoAlbumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.kz56cd.DeletePhotoAlbumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeletePhotoAlbum.app/DeletePhotoAlbum";
+			};
+			name = Release;
+		};
+		215B28F12011BE460015D3E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
+				INFOPLIST_FILE = DeletePhotoAlbumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.kz56cd.DeletePhotoAlbumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeletePhotoAlbum;
+			};
+			name = Debug;
+		};
+		215B28F22011BE460015D3E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
+				INFOPLIST_FILE = DeletePhotoAlbumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.kz56cd.DeletePhotoAlbumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeletePhotoAlbum;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		215B28BD2011BE460015D3E8 /* Build configuration list for PBXProject "DeletePhotoAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215B28E82011BE460015D3E8 /* Debug */,
+				215B28E92011BE460015D3E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		215B28EA2011BE460015D3E8 /* Build configuration list for PBXNativeTarget "DeletePhotoAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215B28EB2011BE460015D3E8 /* Debug */,
+				215B28EC2011BE460015D3E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		215B28ED2011BE460015D3E8 /* Build configuration list for PBXNativeTarget "DeletePhotoAlbumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215B28EE2011BE460015D3E8 /* Debug */,
+				215B28EF2011BE460015D3E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		215B28F02011BE460015D3E8 /* Build configuration list for PBXNativeTarget "DeletePhotoAlbumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215B28F12011BE460015D3E8 /* Debug */,
+				215B28F22011BE460015D3E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 215B28BA2011BE460015D3E8 /* Project object */;
+}
