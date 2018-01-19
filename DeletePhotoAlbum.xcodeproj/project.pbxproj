@@ -14,6 +14,7 @@
 		215B28D02011BE460015D3E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 215B28CE2011BE460015D3E8 /* LaunchScreen.storyboard */; };
 		215B28DB2011BE460015D3E8 /* DeletePhotoAlbumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215B28DA2011BE460015D3E8 /* DeletePhotoAlbumTests.swift */; };
 		215B28E62011BE460015D3E8 /* DeletePhotoAlbumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215B28E52011BE460015D3E8 /* DeletePhotoAlbumUITests.swift */; };
+		21CBFE132011BEF5003296A7 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CBFE122011BEF5003296A7 /* Photos.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		215B28E12011BE460015D3E8 /* DeletePhotoAlbumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeletePhotoAlbumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		215B28E52011BE460015D3E8 /* DeletePhotoAlbumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletePhotoAlbumUITests.swift; sourceTree = "<group>"; };
 		215B28E72011BE460015D3E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21CBFE122011BEF5003296A7 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21CBFE132011BEF5003296A7 /* Photos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				215B28D92011BE460015D3E8 /* DeletePhotoAlbumTests */,
 				215B28E42011BE460015D3E8 /* DeletePhotoAlbumUITests */,
 				215B28C32011BE460015D3E8 /* Products */,
+				21CBFE112011BEF5003296A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				215B28E72011BE460015D3E8 /* Info.plist */,
 			);
 			path = DeletePhotoAlbumUITests;
+			sourceTree = "<group>";
+		};
+		21CBFE112011BEF5003296A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21CBFE122011BEF5003296A7 /* Photos.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -429,6 +441,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
 				INFOPLIST_FILE = DeletePhotoAlbum/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cc.kz56cd.DeletePhotoAlbum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +457,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
 				INFOPLIST_FILE = DeletePhotoAlbum/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cc.kz56cd.DeletePhotoAlbum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
